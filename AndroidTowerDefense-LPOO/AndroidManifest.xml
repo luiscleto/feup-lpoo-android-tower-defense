@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+   package="pt.up.fe.lpoo.towerdefense"
+   android:versionCode="1"
+   android:versionName="1.0" android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-sdk
+       android:minSdkVersion="8"
+       android:targetSdkVersion="17" />
+
+    <application
+       android:allowBackup="true"
+       android:icon="@drawable/icon"
+       android:label="Tower Defense" >
+        <activity
+           android:name="pt.up.fe.lpoo.towerdefense.TowerDefenseGame"
+           android:configChanges="keyboard|keyboardHidden|orientation"
+           android:label="Tower Defense"
+           android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

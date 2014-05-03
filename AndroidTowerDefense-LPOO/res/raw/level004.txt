@@ -1,0 +1,42 @@
+! Tower Defense Level 4
+! X = TowerBlock
+! _ = PathBlock
+! O = MonsterGoal
+! E = MonsterEntrance
+! 'DONE' must come after map layout
+! waves must start with 'WAVE' followed by stack informations
+! stack information must start with 'STACK' followed by monster type, number of units, origin (x y) and destination (x y)
+! stack start time and delay between each stack unit (miliseconds)
+! empty lines are optional
+XXXXXXXXXXXXXXXXXXX
+X________________EX
+X_XXXXXXXXXXXXXXXXX
+X_X_______________X
+X_X_XXXXXXXXXXXXX_X
+X_X_X___XOXXXXXXX_X
+X_X___X_________X_X
+X_XXXXXXXXXXXXX_X_X
+X_______________XEX
+XXXXXXXXXXXXXXXXXXX
+DONE
+
+WAVE
+
+STACK
+slime
+10 17 1 9 5 2000 2000
+
+STACK
+slime
+10 17 8 9 5 2000 2000
+
+
+WAVE
+
+STACK
+skull
+2 17 1 9 5 10000 4000
+
+STACK
+skull
+2 17 8 9 5 10000 4000

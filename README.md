@@ -1,7 +1,7 @@
 feup-lpoo-android-tower-defense
 ===============================
 
-A small Tower Defense game for android, developped for the Object Oriented Programming Laboratory class of the Faculty of Engineering of the University of Porto (2012/2013), by LuÌs Filipe Correia Cleto and Jo„o Pedro Domingues da Rocha Marinheiro.
+A small Tower Defense game for android, developed for the Object Oriented Programming Laboratory class of the Faculty of Engineering of the University of Porto (2012/2013), by Lu√≠s Filipe Correia Cleto and Jo√£o Pedro Domingues da Rocha Marinheiro.
 
 This project makes use of the Android Game Framework, developed by James Cho and available at http://www.kilobolt.com/game-development-tutorial.html.
 Most of the graphic and music resources were obtained from http://opengameart.org/.

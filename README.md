@@ -6,7 +6,7 @@ A small Tower Defense game for android, developed for the Object Oriented Progra
 This project makes use of the Android Game Framework, developed by James Cho and available at http://www.kilobolt.com/game-development-tutorial.html.
 Most of the graphic and music resources were obtained from http://opengameart.org/.
 
-As this was the first android project we made (and one of the first real projects), it's quality is questionable in some aspects.
+As this was the first android project we made (and one of the first real projects), its quality is questionable in some aspects.
 Feel free to use and adapt the game but please give credit to the original authors. (See license for more details)
 
 Screenshots
